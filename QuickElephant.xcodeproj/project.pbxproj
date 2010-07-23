@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* QuickElephantAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* QuickElephantAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860B770F44E54D00985440 /* QuickElephant.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28860B760F44E54D00985440 /* QuickElephant.xcdatamodel */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		C139BADE1174DB19008ADF84 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C139BAD51174DB18008ADF84 /* MainView.m */; };
+		C139BADF1174DB19008ADF84 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C139BAD71174DB19008ADF84 /* FlipsideViewController.m */; };
+		C139BAE01174DB19008ADF84 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C139BAD91174DB19008ADF84 /* FlipsideView.m */; };
+		C139BB711174E5C4008ADF84 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C139BB701174E5C4008ADF84 /* FlipsideView.xib */; };
+		C1485EFC11A530A600DC4252 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1485EFB11A530A600DC4252 /* Entitlements.plist */; };
+		C149EE0111A2D5D200907B2B /* dataset.plist in Resources */ = {isa = PBXBuildFile; fileRef = C149EE0011A2D5D100907B2B /* dataset.plist */; };
+		C149EE1011A2D6A200907B2B /* HistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = C149EE0E11A2D6A200907B2B /* HistoryController.m */; };
+		C149EE1111A2D6A200907B2B /* HistoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C149EE0F11A2D6A200907B2B /* HistoryController.xib */; };
+		C149EF0511A3DC0B00907B2B /* NoteEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = C149EF0411A3DC0B00907B2B /* NoteEntry.m */; };
+		C149F1DE11A526C000907B2B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C149F1DD11A526C000907B2B /* Default.png */; };
+		C167E68F1192B2FC004871E5 /* NoteEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E68D1192B2FC004871E5 /* NoteEntryController.m */; };
+		C167E6901192B2FC004871E5 /* NoteEntryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C167E68E1192B2FC004871E5 /* NoteEntryController.xib */; };
+		C167E7151192BBD0004871E5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E7141192BBD0004871E5 /* RootViewController.m */; };
+		C167E8421192C5E8004871E5 /* EDAMLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8201192C5E7004871E5 /* EDAMLimits.m */; };
+		C167E8431192C5E8004871E5 /* Errors.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8221192C5E7004871E5 /* Errors.m */; };
+		C167E8441192C5E8004871E5 /* NoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8241192C5E8004871E5 /* NoteStore.m */; };
+		C167E8451192C5E8004871E5 /* Types.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8261192C5E8004871E5 /* Types.m */; };
+		C167E8461192C5E8004871E5 /* UserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8281192C5E8004871E5 /* UserStore.m */; };
+		C167E8471192C5E8004871E5 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E82C1192C5E8004871E5 /* TBinaryProtocol.m */; };
+		C167E8481192C5E8004871E5 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E82F1192C5E8004871E5 /* TProtocolException.m */; };
+		C167E8491192C5E8004871E5 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8321192C5E8004871E5 /* TProtocolUtil.m */; };
+		C167E84A1192C5E8004871E5 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8351192C5E8004871E5 /* TApplicationException.m */; };
+		C167E84B1192C5E8004871E5 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8371192C5E8004871E5 /* TException.m */; };
+		C167E84C1192C5E8004871E5 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E83C1192C5E8004871E5 /* THTTPClient.m */; };
+		C167E84D1192C5E8004871E5 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E83F1192C5E8004871E5 /* TTransportException.m */; };
+		C167E84E1192C5E8004871E5 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8411192C5E8004871E5 /* TSharedProcessorFactory.m */; };
+		C167E8751192CA75004871E5 /* EvernoteBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = C167E8741192CA75004871E5 /* EvernoteBackup.m */; };
+		C168849D11F8C7AF008D3B7C /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C168848511F8C7AF008D3B7C /* CDataScanner.m */; };
+		C168849E11F8C7AF008D3B7C /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C168848711F8C7AF008D3B7C /* CDataScanner_Extensions.m */; };
+		C168849F11F8C7AF008D3B7C /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C168848911F8C7AF008D3B7C /* CJSONDataSerializer.m */; };
+		C16884A011F8C7AF008D3B7C /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C168848B11F8C7AF008D3B7C /* CJSONDeserializer.m */; };
+		C16884A111F8C7AF008D3B7C /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C168848D11F8C7AF008D3B7C /* CJSONScanner.m */; };
+		C16884A211F8C7AF008D3B7C /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C168848F11F8C7AF008D3B7C /* CJSONSerializer.m */; };
+		C16884A311F8C7AF008D3B7C /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = C168849111F8C7AF008D3B7C /* CSerializedJSONData.m */; };
+		C16884A411F8C7AF008D3B7C /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C168849311F8C7AF008D3B7C /* NSCharacterSet_Extensions.m */; };
+		C16884A511F8C7AF008D3B7C /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C168849511F8C7AF008D3B7C /* NSScanner_Extensions.m */; };
+		C16884A611F8C7AF008D3B7C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C168849811F8C7AF008D3B7C /* NSData+Base64.m */; };
+		C16884A711F8C7AF008D3B7C /* MixpanelAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C168849A11F8C7AF008D3B7C /* MixpanelAPI.m */; };
+		C16884A811F8C7AF008D3B7C /* MixpanelEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C168849C11F8C7AF008D3B7C /* MixpanelEvent.m */; };
+		C1726B371194251F001BD775 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C1726B361194251F001BD775 /* Icon.png */; };
+		C1726B9E119434A5001BD775 /* NoteEntryTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1726B9D119434A5001BD775 /* NoteEntryTextView.m */; };
+		C1726C0611944EE0001BD775 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1726C0511944EE0001BD775 /* MessageUI.framework */; };
+		C1DF0FFF11BD41DB005C5119 /* FastPhantLeiste.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DF0FFE11BD41DB005C5119 /* FastPhantLeiste.png */; };
+		C1DF100311BD4400005C5119 /* FastPhantLeiste2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DF100211BD4400005C5119 /* FastPhantLeiste2.png */; };
+		C1E3B7CE11B3B7E9000BE7CA /* EditableDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E3B7CD11B3B7E9000BE7CA /* EditableDetailCell.m */; };
+		C1E3B7D711B3B89B000BE7CA /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E3B7D511B3B89B000BE7CA /* SettingsController.m */; };
+		C1E3B7D811B3B89B000BE7CA /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E3B7D611B3B89B000BE7CA /* SettingsController.xib */; };
+		C1E3B7F111B3C0BE000BE7CA /* SettingsEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E3B7F011B3C0BE000BE7CA /* SettingsEntry.m */; };
+		C1E3B84511B40928000BE7CA /* SettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E3B84311B40928000BE7CA /* SettingsNavigationController.m */; };
+		C1E3B84611B40928000BE7CA /* SettingsNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E3B84411B40928000BE7CA /* SettingsNavigationController.xib */; };
+		C1E3BA4411B55854000BE7CA /* SpinnerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E3BA4311B55854000BE7CA /* SpinnerCell.m */; };
+		C1E3BCE811B653C4000BE7CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E3BCE711B653C4000BE7CA /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* QuickElephantAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickElephantAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* QuickElephantAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickElephantAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* QuickElephant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickElephant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* QuickElephant.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = QuickElephant.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* QuickElephant_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickElephant_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* QuickElephant-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QuickElephant-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C139BAD51174DB18008ADF84 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = projects/QuickElephant/MainView.m; sourceTree = DEVELOPER_DIR; };
+		C139BAD61174DB19008ADF84 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = projects/QuickElephant/MainView.h; sourceTree = DEVELOPER_DIR; };
+		C139BAD71174DB19008ADF84 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = projects/QuickElephant/FlipsideViewController.m; sourceTree = DEVELOPER_DIR; };
+		C139BAD81174DB19008ADF84 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = projects/QuickElephant/FlipsideViewController.h; sourceTree = DEVELOPER_DIR; };
+		C139BAD91174DB19008ADF84 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideView.m; path = projects/QuickElephant/FlipsideView.m; sourceTree = DEVELOPER_DIR; };
+		C139BADA1174DB19008ADF84 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideView.h; path = projects/QuickElephant/FlipsideView.h; sourceTree = DEVELOPER_DIR; };
+		C139BAFE1174DB8B008ADF84 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainView.xib; path = projects/QuickElephant/MainView.xib; sourceTree = DEVELOPER_DIR; };
+		C139BB701174E5C4008ADF84 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FlipsideView.xib; path = projects/QuickElephant/FlipsideView.xib; sourceTree = DEVELOPER_DIR; };
+		C1485EFB11A530A600DC4252 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = projects/QuickElephant/Entitlements.plist; sourceTree = DEVELOPER_DIR; };
+		C149EE0011A2D5D100907B2B /* dataset.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dataset.plist; path = projects/QuickElephant/dataset.plist; sourceTree = DEVELOPER_DIR; };
+		C149EE0D11A2D6A200907B2B /* HistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryController.h; path = projects/QuickElephant/Classes/HistoryController.h; sourceTree = DEVELOPER_DIR; };
+		C149EE0E11A2D6A200907B2B /* HistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryController.m; path = projects/QuickElephant/Classes/HistoryController.m; sourceTree = DEVELOPER_DIR; };
+		C149EE0F11A2D6A200907B2B /* HistoryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HistoryController.xib; path = projects/QuickElephant/Classes/HistoryController.xib; sourceTree = DEVELOPER_DIR; };
+		C149EF0311A3DC0B00907B2B /* NoteEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteEntry.h; path = projects/QuickElephant/Classes/NoteEntry.h; sourceTree = DEVELOPER_DIR; };
+		C149EF0411A3DC0B00907B2B /* NoteEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteEntry.m; path = projects/QuickElephant/Classes/NoteEntry.m; sourceTree = DEVELOPER_DIR; };
+		C149F1DD11A526C000907B2B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = projects/QuickElephant/Default.png; sourceTree = DEVELOPER_DIR; };
+		C167E68C1192B2FC004871E5 /* NoteEntryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteEntryController.h; path = projects/QuickElephant/NoteEntryController.h; sourceTree = DEVELOPER_DIR; };
+		C167E68D1192B2FC004871E5 /* NoteEntryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteEntryController.m; path = projects/QuickElephant/NoteEntryController.m; sourceTree = DEVELOPER_DIR; };
+		C167E68E1192B2FC004871E5 /* NoteEntryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NoteEntryController.xib; path = projects/QuickElephant/NoteEntryController.xib; sourceTree = DEVELOPER_DIR; };
+		C167E7141192BBD0004871E5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = projects/QuickElephant/Classes/RootViewController.m; sourceTree = DEVELOPER_DIR; };
+		C167E81F1192C5E7004871E5 /* EDAMLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDAMLimits.h; path = projects/QuickElephant/cocoa/edam/EDAMLimits.h; sourceTree = DEVELOPER_DIR; };
+		C167E8201192C5E7004871E5 /* EDAMLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EDAMLimits.m; path = projects/QuickElephant/cocoa/edam/EDAMLimits.m; sourceTree = DEVELOPER_DIR; };
+		C167E8211192C5E7004871E5 /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Errors.h; path = projects/QuickElephant/cocoa/edam/Errors.h; sourceTree = DEVELOPER_DIR; };
+		C167E8221192C5E7004871E5 /* Errors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Errors.m; path = projects/QuickElephant/cocoa/edam/Errors.m; sourceTree = DEVELOPER_DIR; };
+		C167E8231192C5E7004871E5 /* NoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteStore.h; path = projects/QuickElephant/cocoa/edam/NoteStore.h; sourceTree = DEVELOPER_DIR; };
+		C167E8241192C5E8004871E5 /* NoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteStore.m; path = projects/QuickElephant/cocoa/edam/NoteStore.m; sourceTree = DEVELOPER_DIR; };
+		C167E8251192C5E8004871E5 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Types.h; path = projects/QuickElephant/cocoa/edam/Types.h; sourceTree = DEVELOPER_DIR; };
+		C167E8261192C5E8004871E5 /* Types.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Types.m; path = projects/QuickElephant/cocoa/edam/Types.m; sourceTree = DEVELOPER_DIR; };
+		C167E8271192C5E8004871E5 /* UserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserStore.h; path = projects/QuickElephant/cocoa/edam/UserStore.h; sourceTree = DEVELOPER_DIR; };
+		C167E8281192C5E8004871E5 /* UserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserStore.m; path = projects/QuickElephant/cocoa/edam/UserStore.m; sourceTree = DEVELOPER_DIR; };
+		C167E82B1192C5E8004871E5 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBinaryProtocol.h; path = projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.h; sourceTree = DEVELOPER_DIR; };
+		C167E82C1192C5E8004871E5 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBinaryProtocol.m; path = projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m; sourceTree = DEVELOPER_DIR; };
+		C167E82D1192C5E8004871E5 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TProtocol.h; path = projects/QuickElephant/cocoa/thrift/protocol/TProtocol.h; sourceTree = DEVELOPER_DIR; };
+		C167E82E1192C5E8004871E5 /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TProtocolException.h; path = projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.h; sourceTree = DEVELOPER_DIR; };
+		C167E82F1192C5E8004871E5 /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TProtocolException.m; path = projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m; sourceTree = DEVELOPER_DIR; };
+		C167E8301192C5E8004871E5 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TProtocolFactory.h; path = projects/QuickElephant/cocoa/thrift/protocol/TProtocolFactory.h; sourceTree = DEVELOPER_DIR; };
+		C167E8311192C5E8004871E5 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TProtocolUtil.h; path = projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.h; sourceTree = DEVELOPER_DIR; };
+		C167E8321192C5E8004871E5 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TProtocolUtil.m; path = projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m; sourceTree = DEVELOPER_DIR; };
+		C167E8341192C5E8004871E5 /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TApplicationException.h; path = projects/QuickElephant/cocoa/thrift/TApplicationException.h; sourceTree = DEVELOPER_DIR; };
+		C167E8351192C5E8004871E5 /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TApplicationException.m; path = projects/QuickElephant/cocoa/thrift/TApplicationException.m; sourceTree = DEVELOPER_DIR; };
+		C167E8361192C5E8004871E5 /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TException.h; path = projects/QuickElephant/cocoa/thrift/TException.h; sourceTree = DEVELOPER_DIR; };
+		C167E8371192C5E8004871E5 /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TException.m; path = projects/QuickElephant/cocoa/thrift/TException.m; sourceTree = DEVELOPER_DIR; };
+		C167E8381192C5E8004871E5 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TProcessor.h; path = projects/QuickElephant/cocoa/thrift/TProcessor.h; sourceTree = DEVELOPER_DIR; };
+		C167E8391192C5E8004871E5 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TProcessorFactory.h; path = projects/QuickElephant/cocoa/thrift/TProcessorFactory.h; sourceTree = DEVELOPER_DIR; };
+		C167E83B1192C5E8004871E5 /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THTTPClient.h; path = projects/QuickElephant/cocoa/thrift/transport/THTTPClient.h; sourceTree = DEVELOPER_DIR; };
+		C167E83C1192C5E8004871E5 /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THTTPClient.m; path = projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m; sourceTree = DEVELOPER_DIR; };
+		C167E83D1192C5E8004871E5 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTransport.h; path = projects/QuickElephant/cocoa/thrift/transport/TTransport.h; sourceTree = DEVELOPER_DIR; };
+		C167E83E1192C5E8004871E5 /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTransportException.h; path = projects/QuickElephant/cocoa/thrift/transport/TTransportException.h; sourceTree = DEVELOPER_DIR; };
+		C167E83F1192C5E8004871E5 /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTransportException.m; path = projects/QuickElephant/cocoa/thrift/transport/TTransportException.m; sourceTree = DEVELOPER_DIR; };
+		C167E8401192C5E8004871E5 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSharedProcessorFactory.h; path = projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.h; sourceTree = DEVELOPER_DIR; };
+		C167E8411192C5E8004871E5 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSharedProcessorFactory.m; path = projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m; sourceTree = DEVELOPER_DIR; };
+		C167E8731192CA75004871E5 /* EvernoteBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EvernoteBackup.h; path = projects/QuickElephant/EvernoteBackup.h; sourceTree = DEVELOPER_DIR; };
+		C167E8741192CA75004871E5 /* EvernoteBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EvernoteBackup.m; path = projects/QuickElephant/EvernoteBackup.m; sourceTree = DEVELOPER_DIR; };
+		C168848411F8C7AF008D3B7C /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = projects/QuickElephant/MPLib/lib/JSON/CDataScanner.h; sourceTree = DEVELOPER_DIR; };
+		C168848511F8C7AF008D3B7C /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataScanner.m; path = projects/QuickElephant/MPLib/lib/JSON/CDataScanner.m; sourceTree = DEVELOPER_DIR; };
+		C168848611F8C7AF008D3B7C /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner_Extensions.h; path = projects/QuickElephant/MPLib/lib/JSON/CDataScanner_Extensions.h; sourceTree = DEVELOPER_DIR; };
+		C168848711F8C7AF008D3B7C /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataScanner_Extensions.m; path = projects/QuickElephant/MPLib/lib/JSON/CDataScanner_Extensions.m; sourceTree = DEVELOPER_DIR; };
+		C168848811F8C7AF008D3B7C /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDataSerializer.h; path = projects/QuickElephant/MPLib/lib/JSON/CJSONDataSerializer.h; sourceTree = DEVELOPER_DIR; };
+		C168848911F8C7AF008D3B7C /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONDataSerializer.m; path = projects/QuickElephant/MPLib/lib/JSON/CJSONDataSerializer.m; sourceTree = DEVELOPER_DIR; };
+		C168848A11F8C7AF008D3B7C /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDeserializer.h; path = projects/QuickElephant/MPLib/lib/JSON/CJSONDeserializer.h; sourceTree = DEVELOPER_DIR; };
+		C168848B11F8C7AF008D3B7C /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONDeserializer.m; path = projects/QuickElephant/MPLib/lib/JSON/CJSONDeserializer.m; sourceTree = DEVELOPER_DIR; };
+		C168848C11F8C7AF008D3B7C /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONScanner.h; path = projects/QuickElephant/MPLib/lib/JSON/CJSONScanner.h; sourceTree = DEVELOPER_DIR; };
+		C168848D11F8C7AF008D3B7C /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONScanner.m; path = projects/QuickElephant/MPLib/lib/JSON/CJSONScanner.m; sourceTree = DEVELOPER_DIR; };
+		C168848E11F8C7AF008D3B7C /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerializer.h; path = projects/QuickElephant/MPLib/lib/JSON/CJSONSerializer.h; sourceTree = DEVELOPER_DIR; };
+		C168848F11F8C7AF008D3B7C /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONSerializer.m; path = projects/QuickElephant/MPLib/lib/JSON/CJSONSerializer.m; sourceTree = DEVELOPER_DIR; };
+		C168849011F8C7AF008D3B7C /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSerializedJSONData.h; path = projects/QuickElephant/MPLib/lib/JSON/CSerializedJSONData.h; sourceTree = DEVELOPER_DIR; };
+		C168849111F8C7AF008D3B7C /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSerializedJSONData.m; path = projects/QuickElephant/MPLib/lib/JSON/CSerializedJSONData.m; sourceTree = DEVELOPER_DIR; };
+		C168849211F8C7AF008D3B7C /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSCharacterSet_Extensions.h; path = projects/QuickElephant/MPLib/lib/JSON/NSCharacterSet_Extensions.h; sourceTree = DEVELOPER_DIR; };
+		C168849311F8C7AF008D3B7C /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSCharacterSet_Extensions.m; path = projects/QuickElephant/MPLib/lib/JSON/NSCharacterSet_Extensions.m; sourceTree = DEVELOPER_DIR; };
+		C168849411F8C7AF008D3B7C /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSScanner_Extensions.h; path = projects/QuickElephant/MPLib/lib/JSON/NSScanner_Extensions.h; sourceTree = DEVELOPER_DIR; };
+		C168849511F8C7AF008D3B7C /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSScanner_Extensions.m; path = projects/QuickElephant/MPLib/lib/JSON/NSScanner_Extensions.m; sourceTree = DEVELOPER_DIR; };
+		C168849711F8C7AF008D3B7C /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "projects/QuickElephant/MPLib/lib/NSData_Base64/NSData+Base64.h"; sourceTree = DEVELOPER_DIR; };
+		C168849811F8C7AF008D3B7C /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "projects/QuickElephant/MPLib/lib/NSData_Base64/NSData+Base64.m"; sourceTree = DEVELOPER_DIR; };
+		C168849911F8C7AF008D3B7C /* MixpanelAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixpanelAPI.h; path = projects/QuickElephant/MPLib/MixpanelAPI.h; sourceTree = DEVELOPER_DIR; };
+		C168849A11F8C7AF008D3B7C /* MixpanelAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixpanelAPI.m; path = projects/QuickElephant/MPLib/MixpanelAPI.m; sourceTree = DEVELOPER_DIR; };
+		C168849B11F8C7AF008D3B7C /* MixpanelEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixpanelEvent.h; path = projects/QuickElephant/MPLib/MixpanelEvent.h; sourceTree = DEVELOPER_DIR; };
+		C168849C11F8C7AF008D3B7C /* MixpanelEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixpanelEvent.m; path = projects/QuickElephant/MPLib/MixpanelEvent.m; sourceTree = DEVELOPER_DIR; };
+		C1726B361194251F001BD775 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = projects/QuickElephant/Icon.png; sourceTree = DEVELOPER_DIR; };
+		C1726B9C119434A5001BD775 /* NoteEntryTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteEntryTextView.h; path = projects/QuickElephant/NoteEntryTextView.h; sourceTree = DEVELOPER_DIR; };
+		C1726B9D119434A5001BD775 /* NoteEntryTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteEntryTextView.m; path = projects/QuickElephant/NoteEntryTextView.m; sourceTree = DEVELOPER_DIR; };
+		C1726C0511944EE0001BD775 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C1DF0FFE11BD41DB005C5119 /* FastPhantLeiste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FastPhantLeiste.png; path = projects/QuickElephant/FastPhantLeiste.png; sourceTree = DEVELOPER_DIR; };
+		C1DF100211BD4400005C5119 /* FastPhantLeiste2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FastPhantLeiste2.png; path = projects/QuickElephant/FastPhantLeiste2.png; sourceTree = DEVELOPER_DIR; };
+		C1E3B7CC11B3B7E9000BE7CA /* EditableDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditableDetailCell.h; path = projects/QuickElephant/Classes/EditableDetailCell.h; sourceTree = DEVELOPER_DIR; };
+		C1E3B7CD11B3B7E9000BE7CA /* EditableDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditableDetailCell.m; path = projects/QuickElephant/Classes/EditableDetailCell.m; sourceTree = DEVELOPER_DIR; };
+		C1E3B7D411B3B89B000BE7CA /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsController.h; path = projects/QuickElephant/SettingsController.h; sourceTree = DEVELOPER_DIR; };
+		C1E3B7D511B3B89B000BE7CA /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsController.m; path = projects/QuickElephant/SettingsController.m; sourceTree = DEVELOPER_DIR; };
+		C1E3B7D611B3B89B000BE7CA /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsController.xib; path = projects/QuickElephant/SettingsController.xib; sourceTree = DEVELOPER_DIR; };
+		C1E3B7EF11B3C0BE000BE7CA /* SettingsEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsEntry.h; path = projects/QuickElephant/Classes/SettingsEntry.h; sourceTree = DEVELOPER_DIR; };
+		C1E3B7F011B3C0BE000BE7CA /* SettingsEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsEntry.m; path = projects/QuickElephant/Classes/SettingsEntry.m; sourceTree = DEVELOPER_DIR; };
+		C1E3B84211B40928000BE7CA /* SettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsNavigationController.h; path = projects/QuickElephant/SettingsNavigationController.h; sourceTree = DEVELOPER_DIR; };
+		C1E3B84311B40928000BE7CA /* SettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsNavigationController.m; path = projects/QuickElephant/SettingsNavigationController.m; sourceTree = DEVELOPER_DIR; };
+		C1E3B84411B40928000BE7CA /* SettingsNavigationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsNavigationController.xib; path = projects/QuickElephant/SettingsNavigationController.xib; sourceTree = DEVELOPER_DIR; };
+		C1E3BA4211B55854000BE7CA /* SpinnerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpinnerCell.h; path = projects/QuickElephant/Classes/SpinnerCell.h; sourceTree = DEVELOPER_DIR; };
+		C1E3BA4311B55854000BE7CA /* SpinnerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpinnerCell.m; path = projects/QuickElephant/Classes/SpinnerCell.m; sourceTree = DEVELOPER_DIR; };
+		C1E3BCE711B653C4000BE7CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+				C1726C0611944EE0001BD775 /* MessageUI.framework in Frameworks */,
+				C1E3BCE811B653C4000BE7CA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C167E7141192BBD0004871E5 /* RootViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				C1E3B7CC11B3B7E9000BE7CA /* EditableDetailCell.h */,
+				C1E3B7CD11B3B7E9000BE7CA /* EditableDetailCell.m */,
+				C1E3BA4211B55854000BE7CA /* SpinnerCell.h */,
+				C1E3BA4311B55854000BE7CA /* SpinnerCell.m */,
+				1D3623240D0F684500981E51 /* QuickElephantAppDelegate.h */,
+				1D3623250D0F684500981E51 /* QuickElephantAppDelegate.m */,
+				C149EE0D11A2D6A200907B2B /* HistoryController.h */,
+				C149EE0E11A2D6A200907B2B /* HistoryController.m */,
+				C149EE0F11A2D6A200907B2B /* HistoryController.xib */,
+				C149EF0311A3DC0B00907B2B /* NoteEntry.h */,
+				C149EF0411A3DC0B00907B2B /* NoteEntry.m */,
+				C1E3B7EF11B3C0BE000BE7CA /* SettingsEntry.h */,
+				C1E3B7F011B3C0BE000BE7CA /* SettingsEntry.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* QuickElephant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C168848111F8C7AF008D3B7C /* MPLib */,
+				C167E7E91192C594004871E5 /* evernote */,
+				C139BAD21174DAE6008ADF84 /* Main View */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				C1485EFB11A530A600DC4252 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* QuickElephant_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF100211BD4400005C5119 /* FastPhantLeiste2.png */,
+				C1DF0FFE11BD41DB005C5119 /* FastPhantLeiste.png */,
+				C149F1DD11A526C000907B2B /* Default.png */,
+				C1726B361194251F001BD775 /* Icon.png */,
+				C139BAFE1174DB8B008ADF84 /* MainView.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				28860B760F44E54D00985440 /* QuickElephant.xcdatamodel */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				8D1107310486CEB800E47090 /* QuickElephant-Info.plist */,
+				C139BB701174E5C4008ADF84 /* FlipsideView.xib */,
+				C149EE0011A2D5D100907B2B /* dataset.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+				C1726C0511944EE0001BD775 /* MessageUI.framework */,
+				C1E3BCE711B653C4000BE7CA /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C139BAD21174DAE6008ADF84 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				C139BAD51174DB18008ADF84 /* MainView.m */,
+				C139BAD61174DB19008ADF84 /* MainView.h */,
+				C139BAD71174DB19008ADF84 /* FlipsideViewController.m */,
+				C139BAD81174DB19008ADF84 /* FlipsideViewController.h */,
+				C1E3B7D411B3B89B000BE7CA /* SettingsController.h */,
+				C1E3B7D511B3B89B000BE7CA /* SettingsController.m */,
+				C1E3B7D611B3B89B000BE7CA /* SettingsController.xib */,
+				C1E3B84211B40928000BE7CA /* SettingsNavigationController.h */,
+				C1E3B84311B40928000BE7CA /* SettingsNavigationController.m */,
+				C1E3B84411B40928000BE7CA /* SettingsNavigationController.xib */,
+				C139BAD91174DB19008ADF84 /* FlipsideView.m */,
+				C139BADA1174DB19008ADF84 /* FlipsideView.h */,
+				C167E68C1192B2FC004871E5 /* NoteEntryController.h */,
+				C167E68D1192B2FC004871E5 /* NoteEntryController.m */,
+				C167E68E1192B2FC004871E5 /* NoteEntryController.xib */,
+				C167E8731192CA75004871E5 /* EvernoteBackup.h */,
+				C167E8741192CA75004871E5 /* EvernoteBackup.m */,
+				C1726B9C119434A5001BD775 /* NoteEntryTextView.h */,
+				C1726B9D119434A5001BD775 /* NoteEntryTextView.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		C167E7E91192C594004871E5 /* evernote */ = {
+			isa = PBXGroup;
+			children = (
+				C167E81D1192C5E7004871E5 /* cocoa */,
+			);
+			name = evernote;
+			sourceTree = "<group>";
+		};
+		C167E81D1192C5E7004871E5 /* cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				C167E81E1192C5E7004871E5 /* edam */,
+				C167E8291192C5E8004871E5 /* thrift */,
+			);
+			name = cocoa;
+			path = projects/QuickElephant/cocoa;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C167E81E1192C5E7004871E5 /* edam */ = {
+			isa = PBXGroup;
+			children = (
+				C167E81F1192C5E7004871E5 /* EDAMLimits.h */,
+				C167E8201192C5E7004871E5 /* EDAMLimits.m */,
+				C167E8211192C5E7004871E5 /* Errors.h */,
+				C167E8221192C5E7004871E5 /* Errors.m */,
+				C167E8231192C5E7004871E5 /* NoteStore.h */,
+				C167E8241192C5E8004871E5 /* NoteStore.m */,
+				C167E8251192C5E8004871E5 /* Types.h */,
+				C167E8261192C5E8004871E5 /* Types.m */,
+				C167E8271192C5E8004871E5 /* UserStore.h */,
+				C167E8281192C5E8004871E5 /* UserStore.m */,
+			);
+			name = edam;
+			path = projects/QuickElephant/cocoa/edam;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C167E8291192C5E8004871E5 /* thrift */ = {
+			isa = PBXGroup;
+			children = (
+				C167E82A1192C5E8004871E5 /* protocol */,
+				C167E8331192C5E8004871E5 /* server */,
+				C167E8341192C5E8004871E5 /* TApplicationException.h */,
+				C167E8351192C5E8004871E5 /* TApplicationException.m */,
+				C167E8361192C5E8004871E5 /* TException.h */,
+				C167E8371192C5E8004871E5 /* TException.m */,
+				C167E8381192C5E8004871E5 /* TProcessor.h */,
+				C167E8391192C5E8004871E5 /* TProcessorFactory.h */,
+				C167E83A1192C5E8004871E5 /* transport */,
+				C167E8401192C5E8004871E5 /* TSharedProcessorFactory.h */,
+				C167E8411192C5E8004871E5 /* TSharedProcessorFactory.m */,
+			);
+			name = thrift;
+			path = projects/QuickElephant/cocoa/thrift;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C167E82A1192C5E8004871E5 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C167E82B1192C5E8004871E5 /* TBinaryProtocol.h */,
+				C167E82C1192C5E8004871E5 /* TBinaryProtocol.m */,
+				C167E82D1192C5E8004871E5 /* TProtocol.h */,
+				C167E82E1192C5E8004871E5 /* TProtocolException.h */,
+				C167E82F1192C5E8004871E5 /* TProtocolException.m */,
+				C167E8301192C5E8004871E5 /* TProtocolFactory.h */,
+				C167E8311192C5E8004871E5 /* TProtocolUtil.h */,
+				C167E8321192C5E8004871E5 /* TProtocolUtil.m */,
+			);
+			name = protocol;
+			path = projects/QuickElephant/cocoa/thrift/protocol;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C167E8331192C5E8004871E5 /* server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = server;
+			path = projects/QuickElephant/cocoa/thrift/server;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C167E83A1192C5E8004871E5 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				C167E83B1192C5E8004871E5 /* THTTPClient.h */,
+				C167E83C1192C5E8004871E5 /* THTTPClient.m */,
+				C167E83D1192C5E8004871E5 /* TTransport.h */,
+				C167E83E1192C5E8004871E5 /* TTransportException.h */,
+				C167E83F1192C5E8004871E5 /* TTransportException.m */,
+			);
+			name = transport;
+			path = projects/QuickElephant/cocoa/thrift/transport;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C168848111F8C7AF008D3B7C /* MPLib */ = {
+			isa = PBXGroup;
+			children = (
+				C168848211F8C7AF008D3B7C /* lib */,
+				C168849911F8C7AF008D3B7C /* MixpanelAPI.h */,
+				C168849A11F8C7AF008D3B7C /* MixpanelAPI.m */,
+				C168849B11F8C7AF008D3B7C /* MixpanelEvent.h */,
+				C168849C11F8C7AF008D3B7C /* MixpanelEvent.m */,
+			);
+			name = MPLib;
+			path = projects/QuickElephant/MPLib;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C168848211F8C7AF008D3B7C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C168848311F8C7AF008D3B7C /* JSON */,
+				C168849611F8C7AF008D3B7C /* NSData_Base64 */,
+			);
+			name = lib;
+			path = projects/QuickElephant/MPLib/lib;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C168848311F8C7AF008D3B7C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C168848411F8C7AF008D3B7C /* CDataScanner.h */,
+				C168848511F8C7AF008D3B7C /* CDataScanner.m */,
+				C168848611F8C7AF008D3B7C /* CDataScanner_Extensions.h */,
+				C168848711F8C7AF008D3B7C /* CDataScanner_Extensions.m */,
+				C168848811F8C7AF008D3B7C /* CJSONDataSerializer.h */,
+				C168848911F8C7AF008D3B7C /* CJSONDataSerializer.m */,
+				C168848A11F8C7AF008D3B7C /* CJSONDeserializer.h */,
+				C168848B11F8C7AF008D3B7C /* CJSONDeserializer.m */,
+				C168848C11F8C7AF008D3B7C /* CJSONScanner.h */,
+				C168848D11F8C7AF008D3B7C /* CJSONScanner.m */,
+				C168848E11F8C7AF008D3B7C /* CJSONSerializer.h */,
+				C168848F11F8C7AF008D3B7C /* CJSONSerializer.m */,
+				C168849011F8C7AF008D3B7C /* CSerializedJSONData.h */,
+				C168849111F8C7AF008D3B7C /* CSerializedJSONData.m */,
+				C168849211F8C7AF008D3B7C /* NSCharacterSet_Extensions.h */,
+				C168849311F8C7AF008D3B7C /* NSCharacterSet_Extensions.m */,
+				C168849411F8C7AF008D3B7C /* NSScanner_Extensions.h */,
+				C168849511F8C7AF008D3B7C /* NSScanner_Extensions.m */,
+			);
+			name = JSON;
+			path = projects/QuickElephant/MPLib/lib/JSON;
+			sourceTree = DEVELOPER_DIR;
+		};
+		C168849611F8C7AF008D3B7C /* NSData_Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				C168849711F8C7AF008D3B7C /* NSData+Base64.h */,
+				C168849811F8C7AF008D3B7C /* NSData+Base64.m */,
+			);
+			name = NSData_Base64;
+			path = projects/QuickElephant/MPLib/lib/NSData_Base64;
+			sourceTree = DEVELOPER_DIR;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* QuickElephant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "QuickElephant" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickElephant;
+			productName = QuickElephant;
+			productReference = 1D6058910D05DD3D006BFB54 /* QuickElephant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QuickElephant" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* QuickElephant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				C139BB711174E5C4008ADF84 /* FlipsideView.xib in Resources */,
+				C167E6901192B2FC004871E5 /* NoteEntryController.xib in Resources */,
+				C1726B371194251F001BD775 /* Icon.png in Resources */,
+				C149EE0111A2D5D200907B2B /* dataset.plist in Resources */,
+				C149EE1111A2D6A200907B2B /* HistoryController.xib in Resources */,
+				C149F1DE11A526C000907B2B /* Default.png in Resources */,
+				C1485EFC11A530A600DC4252 /* Entitlements.plist in Resources */,
+				C1E3B7D811B3B89B000BE7CA /* SettingsController.xib in Resources */,
+				C1E3B84611B40928000BE7CA /* SettingsNavigationController.xib in Resources */,
+				C1DF0FFF11BD41DB005C5119 /* FastPhantLeiste.png in Resources */,
+				C1DF100311BD4400005C5119 /* FastPhantLeiste2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* QuickElephantAppDelegate.m in Sources */,
+				28860B770F44E54D00985440 /* QuickElephant.xcdatamodel in Sources */,
+				C139BADE1174DB19008ADF84 /* MainView.m in Sources */,
+				C139BADF1174DB19008ADF84 /* FlipsideViewController.m in Sources */,
+				C139BAE01174DB19008ADF84 /* FlipsideView.m in Sources */,
+				C167E68F1192B2FC004871E5 /* NoteEntryController.m in Sources */,
+				C167E7151192BBD0004871E5 /* RootViewController.m in Sources */,
+				C167E8421192C5E8004871E5 /* EDAMLimits.m in Sources */,
+				C167E8431192C5E8004871E5 /* Errors.m in Sources */,
+				C167E8441192C5E8004871E5 /* NoteStore.m in Sources */,
+				C167E8451192C5E8004871E5 /* Types.m in Sources */,
+				C167E8461192C5E8004871E5 /* UserStore.m in Sources */,
+				C167E8471192C5E8004871E5 /* TBinaryProtocol.m in Sources */,
+				C167E8481192C5E8004871E5 /* TProtocolException.m in Sources */,
+				C167E8491192C5E8004871E5 /* TProtocolUtil.m in Sources */,
+				C167E84A1192C5E8004871E5 /* TApplicationException.m in Sources */,
+				C167E84B1192C5E8004871E5 /* TException.m in Sources */,
+				C167E84C1192C5E8004871E5 /* THTTPClient.m in Sources */,
+				C167E84D1192C5E8004871E5 /* TTransportException.m in Sources */,
+				C167E84E1192C5E8004871E5 /* TSharedProcessorFactory.m in Sources */,
+				C167E8751192CA75004871E5 /* EvernoteBackup.m in Sources */,
+				C1726B9E119434A5001BD775 /* NoteEntryTextView.m in Sources */,
+				C149EE1011A2D6A200907B2B /* HistoryController.m in Sources */,
+				C149EF0511A3DC0B00907B2B /* NoteEntry.m in Sources */,
+				C1E3B7CE11B3B7E9000BE7CA /* EditableDetailCell.m in Sources */,
+				C1E3B7D711B3B89B000BE7CA /* SettingsController.m in Sources */,
+				C1E3B7F111B3C0BE000BE7CA /* SettingsEntry.m in Sources */,
+				C1E3B84511B40928000BE7CA /* SettingsNavigationController.m in Sources */,
+				C1E3BA4411B55854000BE7CA /* SpinnerCell.m in Sources */,
+				C168849D11F8C7AF008D3B7C /* CDataScanner.m in Sources */,
+				C168849E11F8C7AF008D3B7C /* CDataScanner_Extensions.m in Sources */,
+				C168849F11F8C7AF008D3B7C /* CJSONDataSerializer.m in Sources */,
+				C16884A011F8C7AF008D3B7C /* CJSONDeserializer.m in Sources */,
+				C16884A111F8C7AF008D3B7C /* CJSONScanner.m in Sources */,
+				C16884A211F8C7AF008D3B7C /* CJSONSerializer.m in Sources */,
+				C16884A311F8C7AF008D3B7C /* CSerializedJSONData.m in Sources */,
+				C16884A411F8C7AF008D3B7C /* NSCharacterSet_Extensions.m in Sources */,
+				C16884A511F8C7AF008D3B7C /* NSScanner_Extensions.m in Sources */,
+				C16884A611F8C7AF008D3B7C /* NSData+Base64.m in Sources */,
+				C16884A711F8C7AF008D3B7C /* MixpanelAPI.m in Sources */,
+				C16884A811F8C7AF008D3B7C /* MixpanelEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuickElephant_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/**";
+				INFOPLIST_FILE = "QuickElephant-Info.plist";
+				PRODUCT_NAME = QuickElephant;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuickElephant_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/**";
+				INFOPLIST_FILE = "QuickElephant-Info.plist";
+				PRODUCT_NAME = QuickElephant;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Release;
+		};
+		C149F1F811A52C8700907B2B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Distribution;
+		};
+		C149F1F911A52C8700907B2B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuickElephant_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/**";
+				INFOPLIST_FILE = "QuickElephant-Info.plist";
+				PRODUCT_NAME = QuickElephant;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "QuickElephant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C149F1F911A52C8700907B2B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QuickElephant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C149F1F811A52C8700907B2B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

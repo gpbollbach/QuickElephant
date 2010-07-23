@@ -1,0 +1,1402 @@
+TQuickElephant
+v7
+r0
+t295974778.843002
+cCheck dependencies
+cCpResource build/Debug-iphoneos/QuickElephant.app/ResourceRules.plist /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Info.plist QuickElephant-Info.plist
+cCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/MainWindow.xib
+cCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/RootViewController.xib
+cCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.xib
+cCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.xib
+cCopyPNGFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Icon.png /Volumes/Medium/iphonedev/projects/QuickElephant/Icon.png
+cCopyPlistFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/dataset.plist /Volumes/Medium/iphonedev/projects/QuickElephant/dataset.plist
+cCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.xib
+cProcessPCH /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch.gch QuickElephant_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant.mom /Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant.xcdatamodel
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/main.o /Volumes/Medium/iphonedev/projects/QuickElephant/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/QuickElephantAppDelegate.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainView.o /Volumes/Medium/iphonedev/projects/QuickElephant/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideViewController.o /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideView.o /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryController.o /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/RootViewController.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EDAMLimits.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Errors.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteStore.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Types.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/UserStore.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TBinaryProtocol.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolUtil.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TApplicationException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/THTTPClient.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TTransportException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TSharedProcessorFactory.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EvernoteBackup.o /Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryTextView.o /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/HistoryController.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntry.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant normal armv6
+cGenerateDSYMFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app.dSYM /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant
+cProcessProductPackaging "/Users/bollbach/Library/MobileDevice/Provisioning Profiles/0565C5AC-9846-44E9-AA58-B5BDE2433AF2.mobileprovision" /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision
+cTouch /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app
+cProcessProductPackaging /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent
+cCodeSign /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app
+
+N/Users/bollbach/Library/MobileDevice/Provisioning Profiles/0565C5AC-9846-44E9-AA58-B5BDE2433AF2.mobileprovision
+c000000004BE441A20000000000001C16
+t1273250210
+s7190
+
+N/Users/bollbach/Library/MobileDevice/Provisioning Profiles/6AEE2653-4EE8-4059-8150-DD4299E6A05F.mobileprovision
+c000000004BD825A700000000000024C2
+t1272456615
+s9410
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B9A56D50000000000000110
+t1268405973
+s272
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+c000000004B2B3B9F00000000000000DD
+t1261124511
+s221
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004B2B555E0000000000296690
+t1261131102
+s2713232
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B2B5545000000000000046B
+t1261131077
+s1131
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004B2B655100000000000C32C0
+t1261135185
+s799424
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B2B5700000000000000007D
+t1261131520
+s125
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/Availability.h
+c000000004B2B564700000000000019F9
+t1261131335
+s6649
+
+N/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/gcc/arm-apple-darwin9/4.2.1/include/limits.h
+c000000004A53EA040000000000000C7E
+t1247013380
+s3198
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.h
+c000000004BF2A0630000000000000197
+t1274191971
+s407
+i<UIKit/UIKit.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.m
+c000000004BF397D30000000000001503
+t1274255315
+s5379
+i"HistoryController.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.xib
+c000000004BF3950B0000000000004270
+t1274254603
+s17008
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.h
+c000000004BF3A57400000000000001C3
+t1274258804
+s451
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.m
+c000000004BF3A56800000000000000FC
+t1274258792
+s252
+i"NoteEntry.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.h
+c000000004BE7FD920000000000000438
+t1273494930
+s1080
+i"RootViewController.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.m
+c000000004BF3B3CC000000000000193F
+t1274262476
+s6463
+i"QuickElephantAppDelegate.h"
+i"NoteEntryController.h"
+i"HistoryController.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.h
+c000000004BE2860E0000000000000239
+t1273136654
+s569
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m
+c000000004BF3EF7200000000000036F8
+t1274277746
+s14072
+i"RootViewController.h"
+i"FlipsideViewController.h"
+i"QuickElephantAppDelegate.h"
+i"NoteEntry.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/EverPostAppDelegate.h
+c000000004BC479CF00000000000001C2
+t1271167439
+s450
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/EverPostAppDelegate.m
+c000000004BC479CF000000000000032E
+t1271167439
+s814
+i"EverPostAppDelegate.h"
+i"MainViewController.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.h
+c000000004BF3E64500000000000002F1
+t1274275397
+s753
+i<Foundation/Foundation.h>
+i"NoteStore.h"
+i"NoteEntry.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m
+c000000004BF3F10A0000000000002853
+t1274278154
+s10323
+i"EvernoteBackup.h"
+i"THTTPClient.h"
+i"TBinaryProtocol.h"
+i"UserStore.h"
+i"NoteStore.h"
+i"TTransportException.h"
+i"Errors.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.h
+c000000004BC479CF00000000000000BD
+t1271167439
+s189
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.m
+c000000004BC479CF00000000000001BD
+t1271167439
+s445
+i"FlipsideView.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.xib
+c000000004BE30A320000000000007CEC
+t1273170482
+s31980
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.h
+c000000004BE30A3B00000000000003EC
+t1273170491
+s1004
+i<Foundation/Foundation.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m
+c000000004BE807FD0000000000000D0A
+t1273497597
+s3338
+i"FlipsideViewController.h"
+i"EvernoteBackup.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Icon.png
+c000000004BE3ED940000000000000D36
+t1273228692
+s3382
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/MainView.h
+c000000004BC479CF00000000000000CD
+t1271167439
+s205
+i<UIKit/UIKit.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/MainView.m
+c000000004BC479CF00000000000001B1
+t1271167439
+s433
+i"MainView.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.h
+c000000004BE7FB0600000000000001DF
+t1273494278
+s479
+i<UIKit/UIKit.h>
+i"FlipsideViewController.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m
+c000000004BE802C400000000000009DB
+t1273496260
+s2523
+i"MainViewController.h"
+i"MainView.h"
+i"RootViewController.h"
+i"QuickElephantAppDelegate.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/MainWindow.xib
+c000000004BF398200000000000005921
+t1274255392
+s22817
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.h
+c000000004BF3F38F000000000000054A
+t1274278799
+s1354
+i<UIKit/UIKit.h>
+i"FlipsideViewController.h"
+i"RootViewController.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m
+c000000004BF3FFAB0000000000002EF8
+t1274281899
+s12024
+i"NoteEntryController.h"
+i"EvernoteBackup.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.xib
+c000000004BE81158000000000000603C
+t1273499992
+s24636
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.h
+c000000004BE3FE2200000000000000F3
+t1273232930
+s243
+i<Foundation/Foundation.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.m
+c000000004BE400A90000000000000748
+t1273233577
+s1864
+i"NoteEntryTextView.h"
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant.xcdatamodel
+c000000004BF3AB260000000000000088
+t1274260262
+s136
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant_Prefix.pch
+c000000004BF3F6AD000000000000035C
+t1274279597
+s860
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/RootViewController.xib
+c000000004BF2815400000000000042BB
+t1274184020
+s17083
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Test1.h
+c000000004BE2781E000000000000011B
+t1273133086
+s283
+i<UIKit/UIKit.h>
+i"FlipsideViewController.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Test1.m
+c000000004BE277F800000000000005E1
+t1273133048
+s1505
+i"Test1.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/Test1.xib
+c000000004BE2786E0000000000005212
+t1273133166
+s21010
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app
+t1274281978
+s578
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app.dSYM
+t1274281978
+s102
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/FlipsideView.nib
+t1274281966
+s4786
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/HistoryController.nib
+t1274281967
+s1355
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Icon.png
+t1274281966
+s3328
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Info.plist
+t1274281965
+s642
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/MainWindow.nib
+t1274281966
+s2028
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/NoteEntryController.nib
+t1274281966
+s3658
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/PkgInfo
+t1274281965
+s8
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant
+t1274281978
+s1875112
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant.mom
+t1274281968
+s1497
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/ResourceRules.plist
+t1274281965
+s485
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/RootViewController.nib
+t1274281966
+s1357
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Test1.nib
+t1273170712
+s2194
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/dataset.plist
+t1274281966
+s156
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision
+t1274281978
+s7190
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EDAMLimits.o
+t1274281968
+s54612
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Errors.o
+t1274281969
+s51944
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EverPostAppDelegate.o
+t2
+s0
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EvernoteBackup.o
+t1274281972
+s55628
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideView.o
+t1274281968
+s9704
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideViewController.o
+t1274281968
+s54128
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/HistoryController.o
+t1274281973
+s40268
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainView.o
+t1274281968
+s9644
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainViewController.o
+t1273496055
+s56052
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntry.o
+t1274281973
+s5656
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryController.o
+t1274281968
+s88372
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryTextView.o
+t1274281973
+s5260
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteStore.o
+t1274281977
+s2642824
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/QuickElephant.LinkFileList
+c000000004BF3FFED0000000000000DDD
+t1274281965
+s3549
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/QuickElephantAppDelegate.o
+t1274281968
+s62892
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/RootViewController.o
+t1274281968
+s70396
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TApplicationException.o
+t1274281972
+s14512
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TBinaryProtocol.o
+t1274281972
+s46956
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TException.o
+t1274281972
+s10980
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/THTTPClient.o
+t1274281972
+s23928
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolException.o
+t1274281972
+s5456
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolUtil.o
+t1274281972
+s10332
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TSharedProcessorFactory.o
+t1274281972
+s10992
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TTransportException.o
+t1274281972
+s9192
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Test1.o
+t1273170715
+s31084
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Types.o
+t1274281971
+s719972
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/UserStore.o
+t1274281972
+s266484
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/main.o
+t1274281968
+s6628
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent
+t1274281978
+s318
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.h
+c000000004BB247440000000000000D58
+t1269974852
+s3416
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.m
+c000000004BE28EEB0000000000002FE9
+t1273138923
+s12265
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"EDAMLimits.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.h
+c000000004BB247440000000000000BDF
+t1269974852
+s3039
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.m
+c000000004BB247440000000000002EF6
+t1269974852
+s12022
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"Errors.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.h
+c000000004BB2474400000000000067EA
+t1269974852
+s26602
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"UserStore.h"
+i"Types.h"
+i"Errors.h"
+i"Limits.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.m
+c000000004BB247440000000000106F27
+t1269974852
+s1077031
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"UserStore.h"
+i"Types.h"
+i"Errors.h"
+i"Limits.h"
+i"NoteStore.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.h
+c000000004BB24744000000000000BD7F
+t1269974852
+s48511
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"EDAMLimits.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.m
+c000000004BB247440000000000036300
+t1269974852
+s221952
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"EDAMLimits.h"
+i"Types.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.h
+c000000004BB2474400000000000012D9
+t1269974852
+s4825
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"Types.h"
+i"Errors.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.m
+c000000004BF3E6E80000000000016693
+t1274275560
+s91795
+i<Foundation/Foundation.h>
+i<TProtocol.h>
+i<TApplicationException.h>
+i<TProtocolUtil.h>
+i<TProcessor.h>
+i"Types.h"
+i"Errors.h"
+i"UserStore.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.h
+c0000000049D13B0400000000000005A0
+t1238448900
+s1440
+i"TException.h"
+i"TProtocol.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.m
+c0000000049D13B040000000000000D97
+t1238448900
+s3479
+i"TApplicationException.h"
+i"TProtocolUtil.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.h
+c000000004A65D4780000000000000488
+t1248187512
+s1160
+i<Foundation/Foundation.h>
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.m
+c0000000049D13B040000000000000712
+t1238448900
+s1810
+i"TException.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TProcessor.h
+c000000004A662FAB0000000000000402
+t1248210859
+s1026
+i<Foundation/Foundation.h>
+i"TProtocol.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TProcessorFactory.h
+c000000004A662FAB00000000000003D3
+t1248210859
+s979
+i<Foundation/Foundation.h>
+i"TProcessor.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.h
+c000000004A662FAB00000000000003D5
+t1248210859
+s981
+i<Foundation/Foundation.h>
+i"TProcessorFactory.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m
+c000000004A662FAB0000000000000501
+t1248210859
+s1281
+i"TSharedProcessorFactory.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.h
+c0000000049D13B0400000000000005F2
+t1238448900
+s1522
+i"TProtocol.h"
+i"TTransport.h"
+i"TProtocolFactory.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m
+c000000004A68A8020000000000002A81
+t1248372738
+s10881
+i"TBinaryProtocol.h"
+i"TProtocolException.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocol.h
+c000000004A65D4780000000000000E67
+t1248187512
+s3687
+i<Foundation/Foundation.h>
+i"TTransport.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.h
+c0000000049D13B040000000000000372
+t1238448900
+s882
+i"TException.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m
+c0000000049D13B04000000000000036D
+t1238448900
+s877
+i"TProtocolException.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolFactory.h
+c000000004A65D47800000000000003EB
+t1248187512
+s1003
+i<Foundation/Foundation.h>
+i"TProtocol.h"
+i"TTransport.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.h
+c0000000049D13B0400000000000003C9
+t1238448900
+s969
+i"TProtocol.h"
+i"TTransport.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m
+c0000000049D13B040000000000000ACC
+t1238448900
+s2764
+i"TProtocolUtil.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.h
+c000000004A65D4780000000000000502
+t1248187512
+s1282
+i<Foundation/Foundation.h>
+i"TTransport.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m
+c000000004AE757C50000000000001079
+t1256675269
+s4217
+i"THTTPClient.h"
+i"TTransportException.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransport.h
+c0000000049D13B040000000000000564
+t1238448900
+s1380
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.h
+c0000000049D13B040000000000000405
+t1238448900
+s1029
+i"TException.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.m
+c0000000049D13B04000000000000055B
+t1238448900
+s1371
+i"TTransportException.h"
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/dataset.plist
+c000000004BF393130000000000000270
+t1274254099
+s624
+
+N/Volumes/Medium/iphonedev/projects/QuickElephant/main.m
+c000000004BC45F370000000000000172
+t1271160631
+s370
+i<UIKit/UIKit.h>
+
+N/var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-biixpgubcmuqheafdudccqmjufsl/QuickElephant_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-bpplmtlgjqlxwycesgnukndwimef/QuickElephant_Prefix.pch.gch
+t1273170714
+s8401780
+
+N/var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch.gch
+t1274281967
+s8401780
+
+NQuickElephant-Info.plist
+c000000004BE441C4000000000000036B
+t1273250244
+s875
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295974765#295974765#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app
+s295974778.430065
+e295974778.842952
+r1
+xCodeSign
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/QuickElephant.app295974778#295974778#0(0"0(0#0#87"/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app4300885448#827"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv CODESIGN_ALLOCATE /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: Philipp Bollbach (N7HR66P7A7)" --resource-rules=/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/ResourceRules.plist --entitlements /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EDAMLimits.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.666055
+e295974768.862718
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EDAMLimits.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.m295974768#295974768#0(0"0(0#0#72"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.m4300885448#2189"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/EDAMLimits.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EDAMLimits.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Errors.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.749909
+e295974769.054150
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Errors.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.m295974768#295974769#0(0"0(0#0#68"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.m4300885448#2181"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Errors.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Errors.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EverPostAppDelegate.o /Volumes/Medium/iphonedev/projects/QuickElephant/EverPostAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EvernoteBackup.o /Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.762164
+e295974772.986273
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EvernoteBackup.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m: In function '-[EvernoteBackup addEverNote:at:]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:59: warning: local declaration of 'authResult' hides instance variable
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:60: warning: local declaration of 'authResult' hides instance variable
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:75: warning: local declaration of 'noteStore' hides instance variable
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:101: warning: local declaration of 'noteStore' hides instance variable
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m: In function '-[EvernoteBackup initNotebook]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:233: warning: conflicting types for '-(void)initNotebook'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.h:26: warning: previous declaration of '-(BOOL)initNotebook'
+lSLF07#2@73"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m295974772#295974772#0(1025"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m: In function '-[EvernoteBackup addEverNote:at:]':/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:59: warning: local declaration of 'authResult' hides instance variable/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:60: warning: local declaration of 'authResult' hides instance variable/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:75: warning: local declaration of 'noteStore' hides instance variable/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:101: warning: local declaration of 'noteStore' hides instance variable/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m: In function '-[EvernoteBackup initNotebook]':/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m:233: warning: conflicting types for '-(void)initNotebook'/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.h:26: warning: previous declaration of '-(BOOL)initNotebook'6(22@57"Local declaration of 'authResult' hides instance variable295974772#116#137#0(6@65"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m295970954#59#0#59#0#0"0(22@57"Local declaration of 'authResult' hides instance variable295974772#253#137#0(6@65"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m295970954#60#0#60#0#0"0(22@56"Local declaration of 'noteStore' hides instance variable295974772#390#136#0(6@65"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m295970954#75#0#75#0#0"0(22@56"Local declaration of 'noteStore' hides instance variable295974772#526#137#0(6@65"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m295970954#101#0#101#0#0"0(22@43"Conflicting types for '-(void)initNotebook'295974772#776#124#0(6@65"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m295970954#233#0#233#0#25"conflicting types for '*'0(22@45"Previous declaration of '-(BOOL)initNotebook'295974772#900#125#0(6@65"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.h295968197#26#0#26#0#0"0(0#0#65"/Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m4300885448#2186"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/EvernoteBackup.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/EvernoteBackup.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideView.o /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.295154
+e295974768.362062
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideView.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.m295974768#295974768#0(0"0(0#0#63"/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.m4300885448#2182"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideViewController.o /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.181605
+e295974768.469453
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideViewController.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m: In function '-[FlipsideViewController logginIn]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m:87: warning: unused variable 'closeTimer'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m: In function '-[FlipsideViewController login]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m:105: warning: unused variable 'closeTimer'
+lSLF07#2@81"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m295974768#295974768#0(480"/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m: In function '-[FlipsideViewController logginIn]':/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m:87: warning: unused variable 'closeTimer'/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m: In function '-[FlipsideViewController login]':/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m:105: warning: unused variable 'closeTimer'2(22@28"Unused variable 'closeTimer'295974768#125#116#0(6@73"/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m295190397#87#0#87#0#19"unused variable '*'0(22@28"Unused variable 'closeTimer'295974768#363#117#0(6@73"/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m295190397#105#0#105#0#19"unused variable '*'0(0#0#73"/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m4300885448#2202"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideViewController.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/HistoryController.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974773.050867
+e295974773.145429
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/HistoryController.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.m295974773#295974773#0(0"0(0#0#76"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.m4300885448#2200"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/HistoryController.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainView.o /Volumes/Medium/iphonedev/projects/QuickElephant/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.106146
+e295974768.181260
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainView.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/MainView.m295974768#295974768#0(0"0(0#0#59"/Volumes/Medium/iphonedev/projects/QuickElephant/MainView.m4300885448#2174"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/MainView.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainView.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainViewController.o /Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295188855.131975
+e295188855.503157
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainViewController.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m: In function '-[MainViewController viewDidLoad]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:32: warning: passing argument 1 of 'NSLog' from incompatible pointer type
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m: In function '-[MainViewController saveNoteAndClear]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: 'MainViewController' may not respond to '-clearNote'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: (Messages without a matching method signature
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: will be assumed to return 'id' and accept
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: '...' as arguments.)
+o/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:67: warning: 'MainViewController' may not respond to '-saveNote'
+lSLF07#2@77"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m295188855#295188855#0(1018"/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m: In function '-[MainViewController viewDidLoad]':/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:32: warning: passing argument 1 of 'NSLog' from incompatible pointer type/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m: In function '-[MainViewController saveNoteAndClear]':/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: 'MainViewController' may not respond to '-clearNote'/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: (Messages without a matching method signature/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: will be assumed to return 'id' and accept/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:66: warning: '...' as arguments.)/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m:67: warning: 'MainViewController' may not respond to '-saveNote'4(22@60"Passing argument 1 of 'NSLog' from incompatible pointer type295188855#120#144#0(6@69"/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m295187500#32#0#32#0#56"passing argument * of '*' from incompatible pointer type0(22@52"'MainViewController' may not respond to '-clearNote'295188855#389#136#0(6@69"/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m295187500#66#0#66#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295188855#525#129#0(6@69"/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m295187500#66#0#66#0#0"0(22@51"'MainViewController' may not respond to '-saveNote'295188855#883#135#0(6@69"/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m295187500#67#0#67#0#26"'*' may not respond to '*'0(0#0#69"/Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m4300885448#2194"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-bpplmtlgjqlxwycesgnukndwimef/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/MainViewController.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntry.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974773.145546
+e295974773.220251
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntry.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.m295974773#295974773#0(0"0(0#0#68"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.m4300885448#2184"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/NoteEntry.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntry.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryController.o /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.362196
+e295974768.749782
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryController.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController fadeOut]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:36: warning: unused variable 'startFrame'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController viewDidLoad]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:73: warning: unused variable 'fadeTimer'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController setUsernameLabel]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:98: warning: unused variable 'fadeTimer'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController showStatusChangeBegin:forTimeInterval:]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:118: warning: unused variable 'fadeTimer'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController syncStatusEnd]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:249: warning: unused variable 'fadeTimer'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController savePendingNotes]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:265: warning: passing argument 2 of 'executeFetchRequest:error:' from incompatible pointer type
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: 'NoteEntryController' may not respond to '-saveToEvernote:'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: (Messages without a matching method signature
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: will be assumed to return 'id' and accept
+o/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: '...' as arguments.)
+lSLF07#2@78"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974768#295974768#0(2006"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController fadeOut]':/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:36: warning: unused variable 'startFrame'/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController viewDidLoad]':/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:73: warning: unused variable 'fadeTimer'/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController setUsernameLabel]':/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:98: warning: unused variable 'fadeTimer'/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController showStatusChangeBegin:forTimeInterval:]':/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:118: warning: unused variable 'fadeTimer'/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController syncStatusEnd]':/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:249: warning: unused variable 'fadeTimer'/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m: In function '-[NoteEntryController savePendingNotes]':/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:265: warning: passing argument 2 of 'executeFetchRequest:error:' from incompatible pointer type/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: 'NoteEntryController' may not respond to '-saveToEvernote:'/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: (Messages without a matching method signature/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: will be assumed to return 'id' and accept/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m:271: warning: '...' as arguments.)8(22@28"Unused variable 'startFrame'295974768#118#113#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#36#0#36#0#19"unused variable '*'0(22@27"Unused variable 'fadeTimer'295974768#353#112#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#73#0#73#0#19"unused variable '*'0(22@27"Unused variable 'fadeTimer'295974768#592#112#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#98#0#98#0#19"unused variable '*'0(22@27"Unused variable 'fadeTimer'295974768#853#113#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#118#0#118#0#19"unused variable '*'0(22@27"Unused variable 'fadeTimer'295974768#1090#113#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#249#0#249#0#19"unused variable '*'0(22@81"Passing argument 2 of 'executeFetchRequest:error:' from incompatible pointer type295974768#1330#167#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#265#0#265#0#56"passing argument * of '*' from incompatible pointer type0(22@59"'NoteEntryController' may not respond to '-saveToEvernote:'295974768#1497#145#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#271#0#271#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295974768#1642#131#0(6@70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m295974699#271#0#271#0#0"0(0#0#70"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m4300885448#2196"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryController.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryTextView.o /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.986397
+e295974773.050751
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryTextView.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.m295974772#295974773#0(0"0(0#0#68"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.m4300885448#2192"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryTextView.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteEntryTextView.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteStore.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.862844
+e295974777.657632
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteStore.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.m295974768#295974777#0(0"0(0#0#71"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.m4300885448#2187"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/NoteStore.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/NoteStore.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/QuickElephantAppDelegate.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.057844
+e295974768.294998
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/QuickElephantAppDelegate.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.m295974768#295974768#0(0"0(0#0#83"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.m4300885448#2214"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/QuickElephantAppDelegate.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/QuickElephantAppDelegate.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/RootViewController.o /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.469680
+e295974768.665924
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/RootViewController.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m: In function '-[RootViewController section1Count:]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:170: warning: passing argument 2 of 'executeFetchRequest:error:' from incompatible pointer type
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:168: warning: unused variable 'pred'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:195: warning: unused variable 'h'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: 'QuickElephantAppDelegate' may not respond to '-pushNewNoteEntryController:with:uploaded:'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: (Messages without a matching method signature
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: will be assumed to return 'id' and accept
+o/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: '...' as arguments.)
+lSLF07#2@85"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m295974768#295974768#0(1400"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m: In function '-[RootViewController section1Count:]':/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:170: warning: passing argument 2 of 'executeFetchRequest:error:' from incompatible pointer type/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:168: warning: unused variable 'pred'/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:195: warning: unused variable 'h'/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: 'QuickElephantAppDelegate' may not respond to '-pushNewNoteEntryController:with:uploaded:'/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: (Messages without a matching method signature/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: will be assumed to return 'id' and accept/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m:219: warning: '...' as arguments.)5(22@81"Passing argument 2 of 'executeFetchRequest:error:' from incompatible pointer type295974768#131#174#0(6@77"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m295970546#170#0#170#0#56"passing argument * of '*' from incompatible pointer type0(22@22"Unused variable 'pred'295974768#305#115#0(6@77"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m295970546#168#0#168#0#19"unused variable '*'0(22@19"Unused variable 'h'295974768#569#112#0(6@77"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m295970546#195#0#195#0#19"unused variable '*'0(22@90"'QuickElephantAppDelegate' may not respond to '-pushNewNoteEntryController:with:uploaded:'295974768#832#183#0(6@77"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m295970546#219#0#219#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295974768#1015#138#0(6@77"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m295970546#219#0#219#0#0"0(0#0#77"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m4300885448#2202"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/RootViewController.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TApplicationException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.341283
+e295974772.453560
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TApplicationException.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.m295974772#295974772#0(0"0(0#0#85"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.m4300885448#2213"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TApplicationException.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TApplicationException.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TBinaryProtocol.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.062156
+e295974772.209710
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TBinaryProtocol.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m295974772#295974772#0(0"0(0#0#88"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m4300885448#2210"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TBinaryProtocol.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TBinaryProtocol.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.453695
+e295974772.523478
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TException.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.m295974772#295974772#0(0"0(0#0#74"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.m4300885448#2191"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TException.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TException.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/THTTPClient.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.523783
+e295974772.616939
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/THTTPClient.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m: In function '-[THTTPClient flush]':
+o/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: 'NSURLResponse' may not respond to '-className'
+o/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: (Messages without a matching method signature
+o/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: will be assumed to return 'id' and accept
+o/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: '...' as arguments.)
+lSLF07#2@93"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m295974772#295974772#0(680"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m: In function '-[THTTPClient flush]':/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: 'NSURLResponse' may not respond to '-className'/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: (Messages without a matching method signature/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: will be assumed to return 'id' and accept/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m:143: warning: '...' as arguments.)2(22@47"'NSURLResponse' may not respond to '-className'295974772#123#148#0(6@85"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m278368069#143#0#143#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)295974772#271#146#0(6@85"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m278368069#143#0#143#0#0"0(0#0#85"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m4300885448#2203"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/THTTPClient.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/THTTPClient.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.209842
+e295974772.274985
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolException.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m295974772#295974772#0(0"0(0#0#91"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m4300885448#2216"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolException.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolException.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolUtil.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.275113
+e295974772.341163
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolUtil.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m295974772#295974772#0(0"0(0#0#86"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m4300885448#2206"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/protocol/TProtocolUtil.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TProtocolUtil.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TSharedProcessorFactory.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.695904
+e295974772.761993
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TSharedProcessorFactory.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m295974772#295974772#0(0"0(0#0#87"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m4300885448#2217"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/TSharedProcessorFactory.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TSharedProcessorFactory.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TTransportException.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974772.617290
+e295974772.695776
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TTransportException.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.m295974772#295974772#0(0"0(0#0#93"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.m4300885448#2219"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/thrift/transport/TTransportException.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/TTransportException.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Test1.o /Volumes/Medium/iphonedev/projects/QuickElephant/Test1.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294863514.886424
+e294863515.036702
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Test1.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Test1.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/Test1.m294863514#294863515#0(0"0(0#0#56"/Volumes/Medium/iphonedev/projects/QuickElephant/Test1.m4300885448#2168"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-bpplmtlgjqlxwycesgnukndwimef/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/Test1.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Test1.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Types.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974769.054268
+e295974771.226483
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Types.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.m295974769#295974771#0(0"0(0#0#67"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.m4300885448#2179"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/Types.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/Types.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/UserStore.o /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974771.226736
+e295974772.062026
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/UserStore.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.m295974771#295974772#0(0"0(0#0#71"/Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.m4300885448#2187"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/cocoa/edam/UserStore.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/UserStore.o0#
+
+CCompileC build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/main.o /Volumes/Medium/iphonedev/projects/QuickElephant/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974768.002668
+e295974768.106014
+r1
+xCompileC
+xbuild/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/main.o
+x/Volumes/Medium/iphonedev/projects/QuickElephant/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/main.m295974768#295974768#0(0"0(0#0#55"/Volumes/Medium/iphonedev/projects/QuickElephant/main.m4300885448#2166"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -include /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch -c /Volumes/Medium/iphonedev/projects/QuickElephant/main.m -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.xib
+s295974766.922415
+e295974767.276748
+r1
+xCompileXIB
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.xib
+lSLF07#2@40"CompileXIB Classes/HistoryController.xib295974766#295974767#0(0"0(0#0#78"/Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.xib4300885448#633"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/HistoryController.nib /Volumes/Medium/iphonedev/projects/QuickElephant/Classes/HistoryController.xib0#
+
+CCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.xib
+s295974766.330207
+e295974766.878730
+r1
+xCompileXIB
+x/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib295974766#295974766#0(0"0(0#0#65"/Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.xib4300885448#615"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/FlipsideView.nib /Volumes/Medium/iphonedev/projects/QuickElephant/FlipsideView.xib0#
+
+CCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/MainWindow.xib
+s295974765.245238
+e295974766.387415
+r1
+xCompileXIB
+x/Volumes/Medium/iphonedev/projects/QuickElephant/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib295974765#295974766#0(0"0(0#0#63"/Volumes/Medium/iphonedev/projects/QuickElephant/MainWindow.xib4300885448#611"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/MainWindow.nib /Volumes/Medium/iphonedev/projects/QuickElephant/MainWindow.xib0#
+
+CCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.xib
+s295974766.387695
+e295974766.890523
+r1
+xCompileXIB
+x/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.xib
+lSLF07#2@34"CompileXIB NoteEntryController.xib295974766#295974766#0(0"0(0#0#72"/Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.xib4300885448#629"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/NoteEntryController.nib /Volumes/Medium/iphonedev/projects/QuickElephant/NoteEntryController.xib0#
+
+CCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/RootViewController.xib
+s295974765.255398
+e295974766.330103
+r1
+xCompileXIB
+x/Volumes/Medium/iphonedev/projects/QuickElephant/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib295974765#295974766#0(0"0(0#0#71"/Volumes/Medium/iphonedev/projects/QuickElephant/RootViewController.xib4300885448#627"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/RootViewController.nib /Volumes/Medium/iphonedev/projects/QuickElephant/RootViewController.xib0#
+
+CCompileXIB /Volumes/Medium/iphonedev/projects/QuickElephant/Test1.xib
+s294863512.141576
+e294863512.960023
+r1
+xCompileXIB
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Test1.xib
+lSLF07#2@20"CompileXIB Test1.xib294863512#294863512#0(0"0(0#0#58"/Volumes/Medium/iphonedev/projects/QuickElephant/Test1.xib4300885448#601"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Test1.nib /Volumes/Medium/iphonedev/projects/QuickElephant/Test1.xib0#
+
+CCopyPNGFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Icon.png /Volumes/Medium/iphonedev/projects/QuickElephant/Icon.png
+s295974766.879108
+e295974766.923953
+r1
+xCopyPNGFile
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Icon.png
+x/Volumes/Medium/iphonedev/projects/QuickElephant/Icon.png
+lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/QuickElephant.app/Icon.png Icon.png295974766#295974766#0(0"0(0#0#57"/Volumes/Medium/iphonedev/projects/QuickElephant/Icon.png4300885448#714"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv COPY_COMMAND /Volumes/Medium/iphonedev/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Medium/iphonedev/projects/QuickElephant/Icon.png /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Icon.png0#
+
+CCopyPlistFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/dataset.plist /Volumes/Medium/iphonedev/projects/QuickElephant/dataset.plist
+s295974766.890652
+e295974766.922071
+r1
+xCopyPlistFile
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/dataset.plist
+x/Volumes/Medium/iphonedev/projects/QuickElephant/dataset.plist
+lSLF07#2@67"Copy /Volumes/Medium/iphonedev/projects/QuickElephant/dataset.plist295974766#295974766#0(0"0(0#0#62"/Volumes/Medium/iphonedev/projects/QuickElephant/dataset.plist4300885448#556"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 /Volumes/Medium/iphonedev/projects/QuickElephant/dataset.plist --outdir /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app0#
+
+CCpResource build/Debug-iphoneos/QuickElephant.app/ResourceRules.plist /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s295974765.234684
+e295974765.244345
+r1
+xCpResource
+xbuild/Debug-iphoneos/QuickElephant.app/ResourceRules.plist
+x/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@111"Copy /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist295974765#295974765#0(0"0(0#0#106"/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist4300885448#630"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app0#
+
+CDataModelCompile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant.mom /Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant.xcdatamodel
+s295974768.001423
+e295974768.057693
+r1
+xDataModelCompile
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant.mom
+x/Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant.xcdatamodel
+lSLF07#2@82"Compile /Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant.xcdatamodel295974768#295974768#0(0"0(0#0#74"/Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant.xcdatamodel4300885448#525"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant.xcdatamodel /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant.mom0#
+
+CGenerateDSYMFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app.dSYM /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant
+s295974778.023942
+e295974778.328900
+r1
+xGenerateDSYMFile
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app.dSYM
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/QuickElephant.app.dSYM build/Debug-iphoneos/QuickElephant.app/QuickElephant295974778#295974778#0(0"0(0#0#101"/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant4300885448#517"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/usr/bin/dsymutil /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app.dSYM0#
+
+CLd /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant normal armv6
+s295974777.657862
+e295974778.023771
+r1
+xLd
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant
+xnormal
+xarmv6
+lSLF07#2@106"Link /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant295974777#295974778#0(0"0(0#0#0"4300885448#1138"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -filelist /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/Objects-normal/armv6/QuickElephant.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MessageUI -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/QuickElephant0#
+
+CProcessInfoPlistFile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Info.plist QuickElephant-Info.plist
+s295974765.236218
+e295974765.245146
+r1
+xProcessInfoPlistFile
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Info.plist
+xQuickElephant-Info.plist
+lSLF07#2@32"Process QuickElephant-Info.plist295974765#295974765#0(0"0(0#0#73"/Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant-Info.plist4300885448#718"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility QuickElephant-Info.plist -genpkginfo /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/ResourceRules.plist -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/Info.plist0#
+
+CProcessPCH /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-biixpgubcmuqheafdudccqmjufsl/QuickElephant_Prefix.pch.gch QuickElephant_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-bpplmtlgjqlxwycesgnukndwimef/QuickElephant_Prefix.pch.gch QuickElephant_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294863513.575074
+e294863514.411707
+r1
+xProcessPCH
+x/var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-bpplmtlgjqlxwycesgnukndwimef/QuickElephant_Prefix.pch.gch
+xQuickElephant_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile QuickElephant_Prefix.pch294863513#294863514#0(0"0(0#0#73"/Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant_Prefix.pch4300885448#2048"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -c /Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant_Prefix.pch -o /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-bpplmtlgjqlxwycesgnukndwimef/QuickElephant_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch.gch QuickElephant_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s295974767.276893
+e295974768.001262
+r1
+xProcessPCH
+x/var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch.gch
+xQuickElephant_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile QuickElephant_Prefix.pch295974767#295974768#0(0"0(0#0#73"/Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant_Prefix.pch4300885448#2048"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-generated-files.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-own-target-headers.hmap -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-all-target-headers.hmap -iquote /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant-project-headers.hmap -F/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/include -Icocoa/thrift -Icocoa/thrift/protocol -Icocoa/thrift/server -Icocoa/thrift/transport -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources/armv6 -I/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/DerivedSources -c /Volumes/Medium/iphonedev/projects/QuickElephant/QuickElephant_Prefix.pch -o /var/folders/iM/iMEbgZuEHGWjpkpulxh06k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QuickElephant_Prefix-fpskehxvhrrwmsdsefeysrkebdwd/QuickElephant_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/bollbach/Library/MobileDevice/Provisioning Profiles/0565C5AC-9846-44E9-AA58-B5BDE2433AF2.mobileprovision" /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision
+s295974778.329211
+e295974778.372126
+r1
+xProcessProductPackaging
+x/Users/bollbach/Library/MobileDevice/Provisioning Profiles/0565C5AC-9846-44E9-AA58-B5BDE2433AF2.mobileprovision
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/bollbach/Library/MobileDevice/Provisioning Profiles/0565C5AC-9846-44E9-AA58-B5BDE2433AF2.mobileprovision" build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision295974778#295974778#0(0"0(0#0#112"/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision4300885448#544"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/bollbach/Library/MobileDevice/Provisioning Profiles/0565C5AC-9846-44E9-AA58-B5BDE2433AF2.mobileprovision" -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/bollbach/Library/MobileDevice/Provisioning Profiles/6AEE2653-4EE8-4059-8150-DD4299E6A05F.mobileprovision" /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision
+s294863544.805998
+e294863544.826638
+r1
+xProcessProductPackaging
+x/Users/bollbach/Library/MobileDevice/Provisioning Profiles/6AEE2653-4EE8-4059-8150-DD4299E6A05F.mobileprovision
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/bollbach/Library/MobileDevice/Provisioning Profiles/6AEE2653-4EE8-4059-8150-DD4299E6A05F.mobileprovision" build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision294863544#294863544#0(0"0(0#0#112"/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision4300885448#544"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/bollbach/Library/MobileDevice/Provisioning Profiles/6AEE2653-4EE8-4059-8150-DD4299E6A05F.mobileprovision" -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent
+s295974778.377974
+e295974778.429954
+r1
+xProcessProductPackaging
+x/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent
+lSLF07#2@210"ProcessProductPackaging /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent295974778#295974778#0(0"0(0#0#129"/Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent4300885448#579"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/Medium/iphonedev/projects/QuickElephant/build/QuickElephant.build/Debug-iphoneos/QuickElephant.build/QuickElephant.xcent0#
+
+CTouch /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app
+s295974778.372246
+e295974778.377633
+r1
+xTouch
+x/Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app
+lSLF07#2@93"Touch /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app295974778#295974778#0(0"0(0#0#0"4300885448#382"    cd /Volumes/Medium/iphonedev/projects/QuickElephant    setenv PATH "/Volumes/Medium/iphonedev/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Medium/iphonedev/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Volumes/Medium/iphonedev/projects/QuickElephant/build/Debug-iphoneos/QuickElephant.app0#
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>synced</key>
+	<array>
+		<dict>
+			<key>timestamp</key>
+			<string></string>
+			<key>content</key>
+			<string>Hello World loaded</string>
+		</dict>
+	</array>
+	<key>local</key>
+	<array>
+		<dict>
+			<key>timestamp</key>
+			<string></string>
+			<key>content</key>
+			<string>Huuhu World</string>
+		</dict>
+		<dict>
+			<key>timestamp</key>
+			<string></string>
+			<key>content</key>
+			<string>Hello World</string>
+		</dict>
+	</array>
+</dict>
+</plist>
